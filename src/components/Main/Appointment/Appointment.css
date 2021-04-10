@@ -1,0 +1,23 @@
+.appointment_div_style {
+  width: 100% !important;
+  margin-top: 260px !important;
+  position: relative;
+  background-color: #272931;
+  background-image: url(https://raw.githubusercontent.com/ProgrammingHero1/doctors-portal-solution-home-page/master/src/images/appointmentBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+  background-position: center center;
+}
+
+@media only screen and (max-width: 767px) {
+  .appointment_div_style {
+    margin-top: 30px !important;
+  }
+}
+.doctorImage {
+  transform: translateY(-90px);
+  height: 600.5px;
+  width: 40vw !important;
+  min-width: 460px;
+}

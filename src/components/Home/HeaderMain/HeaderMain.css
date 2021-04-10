@@ -1,0 +1,16 @@
+.btn_style {
+  background: linear-gradient(to right, #19d3b0, #10cfe7);
+  outline: none !important;
+  border: none !important;
+}
+.btn_style:active,
+.btn_style:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none;
+}
+
+.headerMainStyle .row {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}

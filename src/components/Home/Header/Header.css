@@ -1,0 +1,35 @@
+.nav-margin {
+  margin: 30px;
+}
+.nav_text_color {
+  color: #19d3b0 !important;
+}
+
+.header_img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1px) {
+  .header_img {
+    max-height: 275px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .header_img {
+    max-height: 400px;
+  }
+}
+
+@media screen and (min-width: 590px) {
+  .header_img {
+    max-height: 250px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .header_img {
+    max-height: 500px;
+  }
+}
